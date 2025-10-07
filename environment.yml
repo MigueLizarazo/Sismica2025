@@ -1,0 +1,50 @@
+name: curso-sismica-avanzado
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - jupyterlab
+  - ipywidgets
+  
+  # === PROCESAMIENTO DE SEÑALES (DISPONIBLES) ===
+  - numpy
+  - scipy
+  - scikit-learn
+  
+  # === SISMOLOGÍA (DE COND-FORGE) ===
+  - obspy
+  - pyasdf
+  
+  # === VISUALIZACIÓN ===
+  - matplotlib
+  - seaborn
+  - plotly
+  
+  # === GEOESPACIAL ===
+  - geopandas
+  - rasterio
+  - fiona
+  - shapely
+  - pyproj
+  - cartopy
+  - utm
+  
+  # === ESTADÍSTICAS ===
+  - pandas
+  - statsmodels
+  - xarray
+  
+  # === SEÑALES Y FFT ===
+  - pyfftw
+  - scikit-image
+  - pywavelets
+  
+  - pip:
+    # === SISMOLOGÍA (VIA PIP) ===
+    - seisbench
+    - pyrocko
+    - noiseflow
+    - pysep
+    - rf
+    - pygeodesy
