@@ -2,3 +2,6 @@
 salidas_*/
 *.csv
 *.png
+.virtual_documents/
+salidas_*/
+*.csv
